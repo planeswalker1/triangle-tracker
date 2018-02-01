@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.container {
+  margin-top: 60px;
+}
+
+.form-group {
+  text-align: left;
+}
