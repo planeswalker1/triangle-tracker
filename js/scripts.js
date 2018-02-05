@@ -4,5 +4,7 @@
 $('#form').on('submit', function(event) {
   // prevent default form submission
   event.preventDefault();
-  console.log('form submitted');
+
+  // Variable with all inputs id
+  let inputs = ['side-1', 'side-2', 'side-3'];
 });
