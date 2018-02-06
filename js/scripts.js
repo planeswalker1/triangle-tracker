@@ -7,4 +7,8 @@ $('#form').on('submit', function(event) {
 
   // Variable with all inputs id
   let inputs = ['side-1', 'side-2', 'side-3'];
+
+  // variable with inputs' value
+  let inputValue = [];
+  
 });
