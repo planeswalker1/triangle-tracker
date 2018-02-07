@@ -10,5 +10,12 @@ $('#form').on('submit', function(event) {
 
   // variable with inputs' value
   let inputValue = [];
-  
+
+  // for each loop to loop throught inputs, select each input, get their value, and push their value into inputValue array
+  inputs.forEach(function(input) {
+    let userInput = parseInt($('#' + input).val());
+    inputValue.push(userInput);
+  });
+
+  console.log(inputValue);
 });
