@@ -36,7 +36,7 @@ $('#form').on('submit', function(event) {
   event.preventDefault();
 
   // Variable with all inputs id
-  let inputs = ['side-1', 'side-2', 'side-3'];
+  let inputs = ['side1', 'side2', 'side3'];
 
   // variable with inputs' value
   let inputValue = [];
@@ -48,4 +48,10 @@ $('#form').on('submit', function(event) {
   });
 
   console.log(inputValue);
+
+  // Empty input strings
+  $('input').val('');
+
+  // change text of #result to result of triangle checker and display it
+  $('#result').text(checkTriangle(inputValue[0], inputValue[1], inputValue[2])).slideDown();
 });
