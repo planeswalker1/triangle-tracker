@@ -10,3 +10,7 @@ body {
 .form-group {
   text-align: left;
 }
+
+#result {
+  margin-top: 20px;
+}
