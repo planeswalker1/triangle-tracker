@@ -55,3 +55,9 @@ $('#form').on('submit', function(event) {
   // change text of #result to result of triangle checker and display it
   $('#result').text(checkTriangle(inputValue[0], inputValue[1], inputValue[2])).slideDown();
 });
+
+// focus event listener for inputs
+$('input').on('focus', function() {
+  // hide #result if focusing input
+  $('#result').slideUp();
+});
